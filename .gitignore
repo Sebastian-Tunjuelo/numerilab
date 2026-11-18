@@ -1,0 +1,22 @@
+# Python / uv
+backend/.venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Node / pnpm / Vite
+node_modules/
+frontend/dist/
+dist/
+*.local
+
+# Herramientas de prueba y sistema operativo
+.playwright-cli/
+.DS_Store
+Thumbs.db
+*.log

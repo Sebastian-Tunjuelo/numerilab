@@ -1,0 +1,6 @@
+allowBuilds:
+  esbuild: true
+onlyBuiltDependencies:
+  - esbuild
+overrides:
+  "mafs>katex": "^0.19.1"
